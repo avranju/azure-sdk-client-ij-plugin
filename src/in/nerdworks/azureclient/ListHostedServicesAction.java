@@ -63,15 +63,11 @@ public class ListHostedServicesAction extends AnAction {
             try {
                 writer.write(e.toString());
                 writer.newLine(); writer.newLine();
-            } catch (IOException e1) {
-                e1.printStackTrace();
-            }
 
-            PrintWriter pw = new PrintWriter(writer);
-            e.printStackTrace(pw);
-            title = "Whoops!";
+                PrintWriter pw = new PrintWriter(writer);
+                e.printStackTrace(pw);
+                title = "Whoops!";
 
-            try {
                 writer.flush();
             } catch (IOException e1) {
                 e1.printStackTrace();
