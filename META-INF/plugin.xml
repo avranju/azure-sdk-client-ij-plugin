@@ -5,7 +5,7 @@
   <vendor email="rajave@microsoft.com" url="http://nerdworks.in">Nerdworks Inc.</vendor>
 
   <description><![CDATA[
-      Sample plugin showing how to use the Azure SDK for Java.
+      Sample plugin showing how to use the Azure SDK for Java in an IntelliJ plugin.
     ]]></description>
 
   <change-notes><![CDATA[
